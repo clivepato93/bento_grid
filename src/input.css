@@ -1,1 +1,18 @@
 @import "tailwindcss";
+@import url('./assets/fonts/static/fonts.css');
+@layer theme, base, components, utilities;
+
+@theme {
+    --color-Purple-100:hsl(254, 88%, 90%);
+    --color-Purple-500: hsl(256, 67%, 59%)
+}
+/* <weight>: Use a value from 100 to 1000 */
+/* <uniquifier>: Use a unique and descriptive class name */
+
+/*  
+.dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
